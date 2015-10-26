@@ -1,0 +1,24 @@
+{
+  "name": "selenium-test",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Test your stuff",
+  "author": "seb",
+  "license": "",
+  "keywords": [
+    "test"
+  ],
+  "scripts": {
+    "start": "node server",
+    "test-integration": "exec ./scripts/test/integration/run.sh",
+    "test-install": "exec ./scripts/test/integration/install.sh"
+  },
+  "devDependencies": {
+    "selenium-standalone": "*",
+    "nightwatch": "*"
+  },
+  "dependencies": {
+    "express": "*"
+  },
+  "main": "server.js"
+}
